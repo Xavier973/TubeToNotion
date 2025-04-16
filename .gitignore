@@ -1,0 +1,35 @@
+# Environnement virtuel
+venv/
+env/
+ENV/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de configuration et variables d'environnement
+.env
+*.env
+
+# Fichiers de cache et logs
+*.log
+*.cache
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de développement
+*.old
+*.bak
+*.tmp
+*.swp
+
+# Fichiers de documentation
+*.docx
+*.doc
+*.pdf
+
+# Fichiers de test
+test_*.py 
