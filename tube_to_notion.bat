@@ -1,12 +1,9 @@
 @echo off
 
 set "SCRIPT_DIR=%~dp0"
-
 cd /d "%SCRIPT_DIR%"
 
-
-call venv\Scripts\activate
-
-python main.py
+rem Utiliser directement le python du venv pour être sûr du bon interpréteur
+call "%SCRIPT_DIR%venv\Scripts\python.exe" "%SCRIPT_DIR%main.py"
 
 pause
