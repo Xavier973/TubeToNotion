@@ -68,7 +68,6 @@ TubeToNotion/
 ├── tube_to_notion.bat      # Lancement en double-clic
 ├── requirements.txt        # Librairies Python
 ├── .gitignore              # Fichiers à ignorer dans Git
-├── Guide.docx              # Documentation utilisateur
 └── TubeToNotion_logo.png   # Logo du projet
 ```
 
